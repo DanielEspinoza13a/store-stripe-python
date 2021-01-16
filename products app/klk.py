@@ -2,7 +2,7 @@ import stripe
 
 # Set your secret key. Remember to switch to your live secret key in production!
 # See your keys here: https://dashboard.stripe.com/account/apikeys
-stripe.api_key = 'pk_test_51I7K4uLcW4XlqZuyKRdxlZICS6mDQ5s9EiW6u8o33yEn8VkcIgNLMDnhMWupysTfCVgI7JyNmOv32GgVkz0jIarv00CAYfTpZu'
+
 
 
 custom = stripe.checkout.Session.create(
